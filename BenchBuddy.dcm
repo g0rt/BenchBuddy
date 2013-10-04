@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 10/3/2013 9:27:49 PM
+#
+$CMP ATX-PWR
+D ATX Power Connector (Molex Mini)
+K ATX 12x2
+$ENDCMP
+#
+#End Doc Library
