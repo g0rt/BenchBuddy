@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date "11 oct 2013"
 Rev ""
@@ -45,16 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9650 2000 0    60   Output ~ 0
-Power+
-Text HLabel 9650 2150 0    60   Input ~ 0
-Power-
-Text HLabel 9650 2300 0    60   Input ~ 0
-Tach
+Text HLabel 9650 2000 2    60   Output ~ 0
+FanOut+
+Text HLabel 9650 2150 2    60   Output ~ 0
+FanOut-
+Text HLabel 9650 2300 2    60   Input ~ 0
+Tach_In
 Text HLabel 1500 3150 0    60   Output ~ 0
-Tach_Out
+Tach_Measure
 Text HLabel 1500 2700 0    60   Input ~ 0
-Fan_In
+Fan_Enable_In
 $Comp
 L LM324 U?
 U 1 1 523F9BAF

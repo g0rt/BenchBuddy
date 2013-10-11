@@ -52,7 +52,7 @@ DIN-
 Text HLabel 7300 2050 2    60   BiDi ~ 0
 Relay_NC
 Text HLabel 7300 2250 2    60   BiDi ~ 0
-RELAY_NO
+Relay_NO
 $Comp
 L OPTO-TRANSISTOR U?
 U 1 1 524E09FD
