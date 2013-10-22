@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "11 oct 2013"
+Date "22 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,9 +46,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1400 2600 0    60   Input ~ 0
-DIN+
+Relay+
 Text HLabel 1400 2900 0    60   Output ~ 0
-DIN-
+Relay-
 Text HLabel 7300 2050 2    60   BiDi ~ 0
 Relay_NC
 Text HLabel 7300 2250 2    60   BiDi ~ 0
