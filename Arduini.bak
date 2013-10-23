@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title ""
-Date "22 oct 2013"
+Date "23 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,12 +55,12 @@ Text HLabel 7650 2950 2    60   Input ~ 0
 MISO
 Text HLabel 7650 2750 2    60   Output ~ 0
 SCLK
-Text HLabel 7650 3050 2    60   Output ~ 0
+Text HLabel 7650 3450 2    60   Output ~ 0
 ~DAC_CS
 Text HLabel 7650 3150 2    60   Output ~ 0
 LED_EN_PWM
 Text HLabel 7650 4050 2    60   Output ~ 0
-~FAN_EN
+Fan_Mode
 Text HLabel 4150 3850 0    60   Input ~ 0
 Tach_Measure
 $Comp
@@ -186,12 +186,12 @@ Wire Wire Line
 $Comp
 L R R?
 U 1 1 5267993F
-P 7250 3050
-F 0 "R?" V 7250 2950 40  0000 C CNN
-F 1 "R" V 7250 3150 40  0000 C CNN
-F 2 "~" V 7180 3050 30  0000 C CNN
-F 3 "~" H 7250 3050 30  0000 C CNN
-	1    7250 3050
+P 7250 3450
+F 0 "R?" V 7250 3350 40  0000 C CNN
+F 1 "R" V 7250 3550 40  0000 C CNN
+F 2 "~" V 7180 3450 30  0000 C CNN
+F 3 "~" H 7250 3450 30  0000 C CNN
+	1    7250 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -234,15 +234,11 @@ Wire Wire Line
 Wire Wire Line
 	6800 2950 7000 2950
 Wire Wire Line
-	7000 3050 6800 3050
-Wire Wire Line
 	7500 2750 7650 2750
 Wire Wire Line
 	7650 2850 7500 2850
 Wire Wire Line
 	7500 2950 7650 2950
-Wire Wire Line
-	7650 3050 7500 3050
 $Comp
 L R R?
 U 1 1 526799F5
@@ -290,4 +286,53 @@ Text HLabel 7650 3250 2    60   Output ~ 0
 ~ADC_CS
 Wire Wire Line
 	7650 3250 7500 3250
+Wire Wire Line
+	7650 3450 7500 3450
+Text HLabel 7650 3050 2    60   Output ~ 0
+Fan_PWM
+Wire Wire Line
+	6800 3450 7000 3450
+$Comp
+L R R?
+U 1 1 526C9148
+P 7250 3050
+F 0 "R?" V 7250 2950 40  0000 C CNN
+F 1 "R" V 7250 3150 40  0000 C CNN
+F 2 "~" V 7180 3050 30  0000 C CNN
+F 3 "~" H 7250 3050 30  0000 C CNN
+	1    7250 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3050 7000 3050
+Wire Wire Line
+	7500 3050 7650 3050
+$Comp
+L R R?
+U 1 1 526C9681
+P 4650 2850
+F 0 "R?" V 4650 2750 40  0000 C CNN
+F 1 "R" V 4650 2950 40  0000 C CNN
+F 2 "~" V 4580 2850 30  0000 C CNN
+F 3 "~" H 4650 2850 30  0000 C CNN
+	1    4650 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 2850 5100 2850
+$Comp
+L +12P #PWR?
+U 1 1 526C96A7
+P 4150 2650
+F 0 "#PWR?" H 4150 2620 30  0001 C CNN
+F 1 "+12P" H 4150 2750 30  0000 C CNN
+F 2 "~" H 4150 2650 60  0000 C CNN
+F 3 "~" H 4150 2650 60  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2850 4150 2850
+Wire Wire Line
+	4150 2850 4150 2650
 $EndSCHEMATC

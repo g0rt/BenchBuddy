@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "22 oct 2013"
+Date "23 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -87,8 +87,9 @@ F6 "SCLK" I L 7650 3250 60
 F7 "FanOut+" O R 9350 2250 60 
 F8 "Tach_In" I R 9350 2850 60 
 F9 "Tach_Measure" O L 7650 2500 60 
-F10 "Fan_Enable_In" I L 7650 2300 60 
-F11 "FanOut-" O R 9350 2400 60 
+F10 "FanOut-" O R 9350 2400 60 
+F11 "Fan_PWM" I L 7650 2300 60 
+F12 "Fan_Mode" I L 7650 2200 60 
 $EndSheet
 $Sheet
 S 7650 5000 1750 800 
